@@ -1,0 +1,79 @@
+
+#button_dial {
+    color: White;
+    padding: 10px 60px;
+    margin: 10px auto;
+    width: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: green
+}
+
+#button_clear {
+    color: White;
+    padding: 10px 60px;
+    margin: 10px auto;
+    width: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.dialer-screen-buttons {
+    color: white;
+    text-align: center;
+    font-size: 60%;
+    padding: 20px 40px;
+    width: 50px;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: auto;
+    background-color: #0a3157
+}
+
+.container {
+    background-color: white;
+    width: 350px;
+    padding: 60px;
+    margin: 30px auto;
+    height: 480px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+#dialer_input {
+    font-size: 2rem;
+    height: 30px;
+    font-weight: bold;
+    color: #1976d2;
+    text-align: left;
+}
+
+.tab-button {
+	font-size: 110%;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #0a3157;
+}
+
+.dialer-screen-buttons:active, #button_dial:active {
+    background-color:#cae2f9;
+}
+
+.contact-names-buttons, .add-contact-button, .clear-button {
+    color: black;
+    font-size:110%;
+    cursor: pointer;
+    background-color: white;
+}
+
+h3 {
+    background:#cae2f9;
+    color:black;
+}
+
+
+
