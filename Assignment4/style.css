@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+header {
+    margin: 20px;
+    text-align: center;
+    color: #470A37;
+    font-size: 30px;
+    font-family: palatino, serif;
+}
+
+body {
+    background-image: url("canvas.PNG");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #E8D4DF;
+    padding: 25px 0;
+    margin: 10px
+}
+
+nav ul {
+    text-align: center;
+    font-family: palatino, serif;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px 80px;
+}
+
+nav ul li a {
+    color: #470A37;
+    font-size: 20px;
+    font-family: palatino, serif;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.image {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    width: 25%;
+    height: 30%;
+}
+
+.blog-text {
+    display:inline-block;
+    justify-content:center;
+    font-family: palatino, serif;
+    padding: 30px;
+}
+
+#date {
+    font-family: palatino, serif;
+    text-align: center;
+}
+
+#items {
+    display:block;
+    font-size: 20px;
+    font-family: palatino, serif;
+    justify-content:center;
+    padding: 30px;
+}
+
+.steps {
+    display:block;
+    font-size: 20px;
+    font-family: palatino, serif;
+    justify-content:center;
+    padding: 30px;
+}
+
+h1 {
+    color: #470A37;
+    font-family: palatino, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2, th {
+    color: #470A37;
+    background-color: #E8D4DF;
+    font-family: palatino, serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#leavecomment {
+    font-size: 20px;
+    font-family: palatino, serif;
+    text-align: left
+}
+
+h4 {
+    font-family: palatino, serif;
+    padding: 5px;
+}
+
+#commentmsg {
+    display:none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red  ;
+    font-family: palatino, serif;
+    background-color: #F5B7B1 ;
+    border-color: #f5c6cb;
+}
+
+#instructions {
+    margin-left: 10px;
+}
+
+#instructions li {
+    list-style-type: square;
+    display: list-item
+    font-family: palatino, serif;
+    padding-bottom: 10px;
+}
+
+.form {
+    margin-left: 30px;
+    margin-right: 650px;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form textarea {
+  margin-bottom: 20px;
+  display: block;
+  outline: none;
+  width: 100%;
+  font-family: palatino, serif;
+
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  line-height: 1.6rem;
+}
+
+button {
+   font-size: 16px;
+   font-family: palatino, serif;
+   border-radius: 12px;
+   background-color: white;
+   color: black;
+   border: 2px solid #4CAF50;
+   padding: 12px 28px;
+}
+
+button:hover {
+  background-color: #D5F5E3;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr, th, td {
+   font-family: palatino, serif;
+   padding: 5px;
+}
+
+th {
+    color: #470A37;
+    font-family: palatino, serif;
+    background-color: #E8D4DF
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #E8D4DF;
+  color: #470A37;;
+  font-family: palatino, serif;
+}
+
+
+
+
+

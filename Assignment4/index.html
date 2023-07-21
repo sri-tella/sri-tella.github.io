@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sri Tella Art Blog</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+
+<section class="blog">
+    <div class="blog-heading">
+        <header role="banner">Art Blog</header>
+    </div>
+
+    <nav role="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Archive.html">Archive</a></li>
+            <li><a href="About.html">About the Author</a></li>
+        </ul>
+    </nav>
+
+    <main role="main">
+        <div class="blog-container">
+
+
+            <div class="blog-text">
+                <div class="image">
+                    <h1 class="blog-title">Digital Illustration of Planet Earth</h1>
+                    <div id="date">19 July 2023</div>
+                    <br>
+                    <img src="planet.png" alt="Planet Earth illustration on Procreate">
+                </div>
+                <div id="items">
+                    <span>
+                        <p>Advancements in technology and the widespread accessibility of digital tools have advanced the art-making process, enabling artists to explore endless possibilities.
+                        From digital painting and illustration to 3D modeling and virtual reality experiences, artists now have a varied array of mediums to express their creativity. </p>
+                    </span>
+                    <br>
+                    <span>
+                        <p>Creating digital art on Procreate application has been easy and intuitive making it a popular choice for many digital artists.
+                    Artists can seamlessly sketch, paint, and manipulate their artwork with natural brushstrokes and customizable settings from the inbuilt brushes provided.This app's responsive and smooth performance allows for fluid creativity, while features like layer management, blending modes, and undo options offer unparalleled flexibility.
+                    For this art illustration posted, I have used the inbuilt procreate brushes and colors specified below to draw planet earth.</p>
+                    </span>
+                    <br>
+                    <div><h2>You will need:</h2></div>
+                    <br>
+                    <table id="itemslist" cellpadding="6" cellspacing="6">
+                        <tr>
+                            <th>Items Required</th>
+                            <th>Type</th>
+                        </tr>
+                        <tr>
+                            <td>Digital Device:</td>
+                            <td>Ipad/Tablet with a stencil</td>
+                        </tr>
+                        <tr>
+                            <td>Application:</td>
+                            <td>Procreate/Adobe</td>
+                        </tr>
+                        <tr>
+                            <td>Procreate brushes used:</td>
+                            <td>Spraypaint Medium Nozzle, Monoline, Grunge, Clouds, Medium Airbrush, Glimmer</td>
+                        </tr>
+                        <tr>
+                            <td>Color palette used:</td>
+                            <td>Dark Blue, Cyan Blue, Cyan, Green, Yellow Green, Vibrant Yellow, Black, White</td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <div>
+                        <div><h2>Steps to draw a planet digitally using Procreate:</h2></div>
+                        <br>
+                        <ul id="instructions" align="justify">
+                            <li>Open a new canvas of screen size and add a new layer.</li>
+                            <li>Draw a circle in the new layer and fill it out with black color.</li>
+                            <li>Add a new layer, set the layer as clipping mask, select the medium nozzle spray paint
+                                (28% size), choose the dark blue color and paint two fourths of the cirle. Similarly
+                                choose the Cyan Blue and Cyan and paint the other teo fourths of the circle
+                            </li>
+                            <li>On the current layer, go to adjustments, select gaussian blur and increase it until
+                                10%.
+                            </li>
+                            <li>For the next step add another layer, set it to clipping mask, draw the land sections
+                                using various green colors and yellow for adding depth to the land.
+                            </li>
+                            <li>Add another layer ont eh top, set the clipping mask, select the clouds brush from
+                                textures (32% size), choose white color and draw clouds all over the areas representing
+                                the land and ocean
+                            </li>
+                            <li>Add another layer on top, set clipping mask, select the grunge brush from the textures,
+                                choose white color and apply the texture ove the whole sphere. Now using the eraser tool
+                                and with the same type of brush, erase the texture so that the underneath contents are
+                                visible.
+                            </li>
+                            <li>Finally add another layer, choose black color, select the medium airbrush and paint one
+                                fourth og the left side of the planet for adding shadow. Now select gaussian blur from
+                                adjustments and increase to 10%
+                            </li>
+                            <li>After completing, now merge all the layers together. Then add another layer below,
+                                choose white color, and with the medium brush draw one fourth of the rigth side of the
+                                sphere. Now head to adjustments, gaussian blur and increase it to 12% for the effect of
+                                light and depth
+                            </li>
+                            <li>For the final effect, set the background color to black, add a layer on top, set to
+                                clipping mask, choose the glimmer brush from luminance, choose white color and draw
+                                stars all over the canvas
+                            </li>
+                            <li>And thats a wrap on drawing planet earth digitally, you can also try other planets using
+                                features like liquify from the adjustments on Procreate
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="form">
+                    <h2 id="leavecomment"> Leave a Comment </h2>
+                    <br>
+                    <label for="comment">Your Comment</label>
+                    <textarea id="comment" name="comment" rows="10" aria-required="true" required></textarea>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="Your Name" aria-required="true" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Your Email" aria-required="true" required>
+
+                    <button id="submit">Post Comment</button>
+                    <div id="commentmsg" class="alert" role="alert">
+                        Your comment has been posted successfully.
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="blog.js"></script>
+</body>
+<footer>&copy; Copyright 2023 Sri Tella</footer>
+</html>
