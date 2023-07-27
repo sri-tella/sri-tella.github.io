@@ -1,0 +1,127 @@
+
+#button_dial {
+    color: White;
+    padding: 10px;
+    margin: 10px auto;
+    width: 150px;
+    font-size: 2.5rem;
+    background-color: green
+}
+
+#button_clear {
+    color: White;
+    padding: 10px;
+    margin: 10px auto;
+    width: 180px;
+    font-size: 2.5rem;
+    background-color: black
+}
+
+.dialer-screen-buttons {
+    color: white;
+    text-align: center;
+    padding: 20px 60px;
+    width: 100px;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: auto;
+    background-color: black
+}
+
+.container {
+    background-color: #2E2E2E;
+    width: 650px;
+    padding: 60px;
+    margin: 30px auto;
+    height: 920px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 30px 30px rgba(0, 0, 0, 0.25);
+}
+
+#dialer_input_bar {
+    font-size: 3rem;
+    height: 60px;
+    color: black;
+    text-align: left;
+}
+
+.dialer-screen-buttons:active, #button_dial:active, #button_clear:active {
+    color: black;
+    background-color:white;
+}
+
+.contact-names-buttons, .add-contact-button, .clear-button {
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    width: 270px;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: auto;
+    background-color: black
+}
+
+.contact-names-buttons:active, .add-contact-button:active, .clear-button:active {
+    color: black;
+    background-color:white;
+}
+
+h3 {
+    color:white;
+    height: 50px;
+    font-size: 3rem;
+}
+
+h4 {
+    color:white;
+    font-size: 1.5rem;
+}
+
+#switchback {
+    color: black;
+    font-size: 3.5rem;
+    background-color: white
+}
+
+#switchback:active {
+    color: black;
+    background-color: #cae2f9
+}
+
+#first_name, #last_name, #phone_number, #email {
+    font-size: 2rem;
+    height: 40px;
+    color: black;
+    text-align: left;
+}
+
+#button_contact_list, #button_add_contact, #about {
+    color: White;
+    background-color: black;
+    padding: auto;
+    width: 120px;
+    font-size: 1.5rem;
+}
+
+#button_dialer {
+    color: White;
+    background-color: #0a3157;
+    padding-bottom: 29px;
+    width: 120px;
+    margin:20px auto;
+    font-size: 1.5rem;
+}
+
+p {
+    background:black;
+    color:white;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+

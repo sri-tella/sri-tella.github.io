@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+          integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link id="theme" rel="stylesheet" href="phone.css">
+
+    <title> Phone Dialer Application </title>
+</head>
+<body>
+<div class= "container">
+    <div class="tab bar" id="tab_bar">
+        <button class="tab-button" id="button_dialer"> Dialer</button>
+        <button class="tab-button" id="button_contact_list"> Contact List</button>
+        <button class="tab-button" id="button_add_contact"> Add Contact</button>
+        <button class="tab-button" id="about"> About Project</button>
+    </div>
+
+    <div class="tab content" id="tab_content">
+        <div class="tab screens" id="screen_dialer" style="display:block">
+            <h3><b>Dialer</b></h3>
+
+            <div class="dialer input" id="dialer_input">
+                <input type="tel" inputmode="numeric" id="dialer_input_bar"/>
+            </div>
+
+            <br>
+
+            <div class="screen buttons" id="dialer_buttons">
+
+                <div class="123buttons" id="buttons_first_row">
+                    <button class="dialer-screen-buttons" id="button1"> 1</button>
+                    <button class="dialer-screen-buttons" id="button2"> 2</button>
+                    <button class="dialer-screen-buttons" id="button3"> 3</button>
+                </div>
+
+                <div class="456buttons" id="buttons_second_row">
+                    <button class="dialer-screen-buttons" id="button4"> 4</button>
+                    <button class="dialer-screen-buttons" id="button5"> 5</button>
+                    <button class="dialer-screen-buttons" id="button6"> 6</button>
+                </div>
+
+                <div class="789buttons" id="buttons_third_row">
+                    <button class="dialer-screen-buttons" id="button7"> 7</button>
+                    <button class="dialer-screen-buttons" id="button8"> 8</button>
+                    <button class="dialer-screen-buttons" id="button9"> 9</button>
+                </div>
+
+                <div class="0buttons" id="buttons_fourth_row">
+                    <button class="dialer-screen-buttons" id="button_star"> *</button>
+                    <button class="dialer-screen-buttons" id="button0"> 0</button>
+                    <button class="dialer-screen-buttons" id="button_hash"> #</button>
+                </div>
+
+                <div class="dial clear buttons" id="buttons_fifth_row">
+                    <button class="dial clear buttons" id="button_dial" >Dial</button>
+                    <button class="dial clear buttons" id="button_clear">Clear</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="tab screens" id="screen_contact_list">
+            <h3><b>Contact List</b></h3>
+            <div class="contact screen buttons" id="contact_buttons">
+
+                <div class="contact-names" id="contacts_first_row">
+                    <button class="contact-names-buttons" id="name1"> Amma</button>
+                    <button class="contact-names-buttons" id="name2"> Nannagaru</button>
+                    <button class="contact-names-buttons" id="name3"> Natasha</button>
+                </div>
+                <br>
+                <div class="contact-names" id="contacts_second_row">
+                    <button class="contact-names-buttons" id="name4"> Venkat</button>
+                    <button class="contact-names-buttons" id="name5"> Rajani</button>
+                    <button class="contact-names-buttons" id="name6"> Kanishka</button>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="tab screens" id="screen_add_contact">
+            <h3><b>Add Contact</b></h3>
+
+            <form class="add-contact-form" id="add-contact-form">
+                <div class="form-elements">
+                    <h4>First Name</h4>
+                    <input type="text" id="first_name" placeholder="First Name" required/>
+                </div>
+                <div class="form-elements">
+                    <h4>Last Name</h4>
+                    <input type="text" id="last_name" placeholder="Last Name"/>
+                </div>
+                <div class="form-elements">
+                    <h4>Phone Number</h4>
+                    <input type="text" id="phone_number" placeholder="501-123-0490" required/>
+                </div>
+                <div class="form-elements">
+                    <h4>Email</h4>
+                    <input type="email" id="email" placeholder="janesmith@gmail.com" required/>
+                </div>
+                <br>
+                <div class="form-buttons">
+                    <button type="submit" class="add-contact-button" id="add_contact_button">Add Contact</button>
+                    <button type="button" class="clear-button" id="clear_button">Clear</button>
+                </div>
+            </form>
+        </div>
+        <div class="tab screens" id="screen_about">
+            <h3><b>About the Project</b></h3>
+            <div>
+                <p> Testing website with screen magnifier seemed like an easy task, but it was not from a normal user perspective. It was quite challenging at
+                first to understand the various adjustments such as maximum zoom and touchpad sensitivity. I felt that picture in picture view for magnifier was better compared
+                to the full screen and split screen view adjustments on Mac. Some of the challenges I have faced were obscurity of the content, clicking an
+                element on the page with the magnifier on and pixelation and distortion of the text when we zoom closer to maximum.</p>
+                <p>For the low vision mode, I have increased font size for better readability, made the size of the elements larger,
+                ensured to implement a high contrast mode for better access of elements on the page and Increased the spacing between the paragraphs for better overview of the content</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="switch">
+        <button id="switchcss" onclick="switchtoLV()"> Switch to Low Vision </button>
+        <button id="switchback" onclick="switchBack()"> Switch to Normal </button>
+    </div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="phone.js"></script>
+
+</body>
+</html>
