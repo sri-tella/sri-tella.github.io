@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>Include information here about your app.</p>
+			<ul>
+				<li><h3>Instructions for using the app</h3></li>
+				<p>I have implemented a 5 key, 3 key and single key interfaces to operate the calculator.</p>
+				<p>For the 5 key interface, the following keys resemble the actions
+				<ul>
+				<li>a - select previous</li>
+				<li>d - select next</li>
+				<li>s - click selected item</li>
+				<li>w - select up</li>
+				<li>x - select down</li>
+			</ul></p>
+				<p>For the 3 key interface, the following keys resemble the actions
+				<ul>
+				<li>j - select previous</li>
+				<li>l - select next</li>
+				<li>k - click selected item</li>
+			</ul></p>
+				<p>For the single key interface, the g key resembles the following actions
+				<ul>
+				<li>g - select next </li>
+				<li>long press on g key - clicks on a selected item</li>
+			</ul></p>
+				<li><h3>Test Protocol</h3></li>
+				<p>My test protocol includes comparing the three built interfaces with each other by conducting three trials for each interface and testing condition, using fingers,
+					stylus held in the mouth and the thumb or toe of the foot</p>
+				<p>The equations being tested are as follows:
+				<ul>
+				<li>152 + 87 - 46 = 193</li>
+				<li>10 * 4 / 2 = 20</li>
+				<li>20 / 5 = 9 - 4 = 9</li>
+				<li> 100 * 3 - 47 = 253</li>
+				<li>208 / 8 + 72 = 98</li>
+			</ul></p>
+				<li><h3>Results</h3></li>
+				<p> For the 5 key interface the results were as follows:
+				<ul>
+				<li>Using fingers - For three trials, it took an average time of 2 minutes 16 seconds and 7 total errors</li>
+				<li>Using mouth and stylus - For three trials, it took an average time of 4 minutes 18 seconds and 11 total errors</li>
+				<li>Using toe - For three trials, it took an average time of 5 minutes 39 seconds and 16 total errors</li>
+			</ul></p>
+				<p> For the 3 key interface the results were as follows:
+				<ul>
+				<li>Using fingers - For three trials, it took an average time of 2 minutes 26 seconds and 4 total errors</li>
+				<li>Using mouth and stylus - For three trials, it took an average time of 6 minutes 10 seconds and 13 total errors</li>
+				<li>Using toe - For three trials, it took an average time of 4 minutes 09 seconds and 9 total errors</li>
+			</ul></p>
+				<p> For the single key interface the results were as follows:
+				<ul>
+				<li>Using fingers - For three trials, it took an average time of 4 minutes 14 seconds and 13 total errors</li>
+				<li>Using mouth and stylus - For three trials, it took an average time of 6 minutes 37 seconds and 20 total errors</li>
+				<li>Using toe - For three trials, it took an average time of 5 minutes 05 seconds and 15 total errors</li>
+			</ul></p>
+
+				<li><h3>Conclusion</h3></li>
+				<p>I felt that operating a 5 key interface was much easier during the three testing conditions considering the average time
+				taken. As the number of keys in the interface are reduced, the difficulty in operating them increases. Considering the number of errors,
+				5 key interface has lesser compared to 3 key interface. And single key interface took more time and has more errors compared
+				to the other two interfaces.</p>
+				<p> Comparing the different testing conditions, using fingers resulted in lesser average time and lesser errors. Mouth and
+				 stylus had a longer average time and high number of errors. And toe input method had higher average time and errors compared
+				to using fingers as input.</p>
+			</ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
